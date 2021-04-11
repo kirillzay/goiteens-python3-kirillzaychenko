@@ -54,6 +54,10 @@ print(x.strftime("%m/%d/%y"))
 # 9 задача
 import datetime
 
-x = datetime.datetime.now()
+x1=datetime.datetime.now()
+x0=datetime.datetime(x1.year,x1.month,x1.day)
 
-print(x.strftime("%X"))
+diff = x1 - x0
+
+print(diff.seconds)
+print(diff.seconds / 60)

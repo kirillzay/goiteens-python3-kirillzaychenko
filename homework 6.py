@@ -20,4 +20,4 @@ for i in megatron:
 
 # 5 задача
 transformers["Сентінел Прайм"] = "Пожежна машина"
-print(transformers)
+print(transformers) 
